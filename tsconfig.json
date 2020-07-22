@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES2018",
+        "allowJs": false,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "strict": true,
+        "noFallthroughCasesInSwitch": true,
+        "skipLibCheck": true,
+        "declaration": true,
+        "sourceMap": true,
+        "baseUrl": ".",
+        "rootDir": "src",
+        "outDir": "cjs",
+    },
+    "include": ["src"],
+    "exclude": ["**/__tests__"]
+}

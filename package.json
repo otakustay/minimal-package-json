@@ -1,0 +1,29 @@
+{
+  "name": "minimal-package-json",
+  "version": "1.0.0",
+  "repository": "https://github.com/otakustay/minimal-package-json.git",
+  "author": "otakustay <otakustay@gmail.com>",
+  "license": "MIT",
+  "main": "cjs/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "files": [
+    "cjs",
+    "es",
+    "src"
+  ],
+  "scripts": {
+    "build": "rm -rf es cjs && tsc & tsc --module ESNext --outDir ./es",
+    "build-check": "tsc",
+    "lint": "skr lint",
+    "test": "skr test --coverage"
+  },
+  "devDependencies": {
+    "@reskript/cli": "^0.9.0",
+    "@reskript/cli-lint": "^0.9.9",
+    "@reskript/cli-test": "^0.9.4",
+    "@reskript/config-lint": "^0.12.3",
+    "lodash": "^4.17.19",
+    "typescript": "^3.9.7"
+  }
+}
