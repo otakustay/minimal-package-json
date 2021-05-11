@@ -23,7 +23,7 @@
     "@reskript/cli-lint": "^0.9.9",
     "@reskript/cli-test": "^0.9.4",
     "@reskript/config-lint": "^0.12.3",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "typescript": "^3.9.7"
   }
 }
